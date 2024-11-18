@@ -1,0 +1,19 @@
+những điều cần lưu ý 
+
+code chưa tối ưu: 
+- về phần đặt tên class nhiều chỗ chưa đúng, cần phải chỉnh sửa 
+- vấn đề thời gia chưa tối ưu, code lặp lại nhiều lần, làm lại nhiều lần 
+- về thẩm mỹ vẫn chưa được tối ưu về các hình ảnh 
+- các đoạn container vẫn phải viết lại css nhiều lần, chưa có tiêu chuẩn chung cho các padding hay magin
+
+
+
+cải thiện:
+- nên để các file css riêng, js riêng tránh sau này phiền phức 
+- đặt tên biến theo đúng tiêu chuẩn bem
+- tham khảo các mẫu thiết kế trước khi làm để có cái nhìn trực quan nhất
+- hỏi ý kiến khách hàng trước khi bắt đầu làm 
+- cài thiện các lỗi liên quan đến trùng lặp class trong html css để tránh ghi lại nhiều lần
+- tính toán cẩn thận
+- có thể chia web thành các modun như header, body, footer, rồi khi tạo trang web thì lấy câu lệnh jquery gắn vào web
+ 

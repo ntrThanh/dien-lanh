@@ -1,8 +1,57 @@
 /* for tablet and low pc resolution */
 
+/* overide grid.css */
+/* .grid.wide {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid.row {
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .grid.wide {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .grid.wide {
+        width: 80%;
+    }
+}
+ */
+/* end */
+
+.grid.wide {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.grid.row {
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .grid.wide {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .grid.wide {
+        width: 80%;
+    }
+}
+
+/* end */
+
 @media (min-width: 740px) {
     .top__container-lable {
-        display: block ;
+        display: block;
     }
 
     .logo-img {
@@ -26,11 +75,11 @@
     }
 
     .top__container-lable {
-        display: block ;
+        display: block;
     }
 
     .top__menu-mobile {
-        display: none;   
+        display: none;
     }
 
     .top__contact-us {
@@ -40,6 +89,7 @@
     .header__bottom {
         display: block;
     }
+
     .phone {
         margin: 30px;
     }
